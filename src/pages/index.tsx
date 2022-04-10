@@ -29,8 +29,7 @@ export default function Home() {
     `}>
       <Layout titulo="Cadastro Simples">
           <div className="flex justify-end">
-            {/* <Botao btnColor="green" className="mb-4">Novo Cliente</Botao> */}
-            <Botao className="mb-4">Novo Cliente</Botao>
+            <Botao btnColor="green" className="mb-4">Novo Cliente</Botao> 
           </div>
 
           {/* <Tabela 
@@ -39,7 +38,7 @@ export default function Home() {
             clienteExcluido={clienteExcluido}
           /> */}
 
-          <Formulario />
+          <Formulario cliente={undefined} id={undefined}  />
         </Layout>
     </div>
   )
